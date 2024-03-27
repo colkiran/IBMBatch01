@@ -1,0 +1,140 @@
+0101
+0011
+----
+0111   = 0 + 2 ** 2 + 2 ** 1 + 2 ** 0
+----     0 + 4 + 2 + 1
+       = 7    
+
+XOR
+
+1   1    0
+0   0    0
+0   1    1
+1   0    1
+
+0101
+0011
+----
+0110	0 + 2 ** 2 + 2 ** 1 + 0
+----    0 + 4 + 2
+        6
+
+5 - 0101
+    1010 - 2 ** 3 + 2 ** 1
+	   8 + 2
+           10
+
+
+8 - 1000 = 2 ** 3 + 0 +0 + 0
+         = 0
+8 << 1
+
+10000  = 2 ** 4 + 0
+       = 16
+  
+16 >> 1 = 10000
+        = 1000
+
+5 >> 1
+0101 = 0010
+
+----------------------------------------------------------------------
+
+range - 0 to 10 - 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
+st[1:7:1]
+
+[start : stop : incr]
+
+by default incr = 1
+
+-1 : -6: : -1
+
+strings in python are immutable
+--------------------------------
+st = "hello"
+
+
+OOPS
+----
+class Stud:
+
+   def __init__(self, name)
+	self.name = name
+
+   # getter method
+   def get_name(self):
+	print(self.name)
+
+   # setter method
+   
+
+std = Stud("Mike")
+std.get_name() 	-> Mike
+
+-----------------------------------------------------------------
+
+Program on strings using real time data using methods like split(), find(),
+index(), strip() etc
+
+Problem Statement:
+Take real time data in string. Sample data example:
+
+‘123.123.123.123 - - [26/Apr/2000:00:23:48 -0400] "GET /pics/mypics.gif
+HTTP/1.0" 200 6248 "http://www.abcxyz.com/asctortf/" "Mozilla/4.05
+(Macintosh; I; PPC)"’
+
+Writing program to extract below information using string class methods
+o IP
+o DATE
+o PICS
+o URL
+
+
+Python DataStructures
+---------------------
+1. List
+2. Tuple
+3. Dictionary
+4. set
+
+
+Lists
+-----
+lists are same as arrays
+
+1. collection of homogenous data
+2. memory allocation is contigious
+
+
+1. Lists are collection of hetrogenous data
+2. Memory allocation is no contigious
+3. They are ordered collection
+4. They are mutable
+5. lists are enclosed in [ ]
+
+l1 = [1, 2, 3, 4, 5]
+
+print
+-----
+print(data, sep="", end="\n")
+
+print("hello")
+print("world")
+
+hello 
+world
+
+
+
+
+
+
+
+
+   
+
+
+
+
