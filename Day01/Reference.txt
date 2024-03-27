@@ -1,0 +1,175 @@
+Perl	- Web Application PERL / CGI
+
+Ruby	- Testing and Web App (ROR - Ruby on Rails MVC)
+
+
+TK - tool Kit - GUI Desktop app
+
+
+
+Python
+------
+Why Python?
+
+1. Its an open source - Python source code is free
+
+2. Ready to use Libraries in Python
+
+3. Destop App		-	TKinter
+
+   Web App		-	Flask, Django(MVC), REST API
+
+   Mobile App		-	Kivy
+
+   Testing		-	pytest, selenium, robot framework
+
+   Data Analytics	-	Numpy, Pandas, Matplotlib, seaborn
+
+   Machine Learning	-	Scikit, Tesorflow....
+
+   AI			-	
+
+   Data Engineering	-	(ETL) - Hadoop, Spark, Kafka, Pyspark, Hive, pig
+
+   Webscrapping		-	beautiful soup
+
+
+Versions of python
+------------------
+2.x and 3.x
+
+2.x
+---
+print "hello"
+
+3.x
+---
+print("hello")
+
+
+Flavours of Python
+------------------
+Cpython		-	currently using
+
+Jython		-	Python - Java
+
+Iron Python	-	dot net
+
+
+Python
+------
+1. SDK
+2. Shell	-	Interpretor -
+3. IDLE		-	Integrated Development Environment
+
+
+two operators that are overloaded
+
++	- addition, concatenation
+
+*	- multiplication and print a string n number of times
+
+Python Shell
+------------
+
+1. clear the screen
+
+os module
+---------
+
+dir(module_name) - list out all the functions in the module
+
+both module and a file will have the same extensions (.py)
+
+
+
+Module - imp
+Function - reload
+------------------
+
+import imp
+
+from imp import reload	- only the reload function will be imported
+
+
+Pycharm
+-------
+1. open pycharm
+2. select NewProject
+3. give a name to the project (check the location where it is saved)
+4. configure your python path 
+5. click on the OK - it will create a virtual Environment (with minimum python lib)
+
+
+Python coding rules
+-------------------
+#!	-	Shebang - used to specify the path of python executable
+
+print("hello World")
+
+Comments
+--------
+# - comment - single line comment
+
+strings are enclosed in "" or '' - single line string 
+
+multiple line string - """ """ or ''' '''
+
+
+"this is a single line comment"  - doc string
+
+Paranthesis or brackets { }
+---------------------------
+we make use of indentation
+
+def fun():
+    print("hello world")
+    for i in range(1, 10):
+	if i % 2 == 0:
+	    print(i)
+	    print("if condition code")
+	
+	print("hello world")
+	print("hello world")
+
+    print("function code")
+
+
+Primary Data types
+------------------
+1. Numbers
+   a. integers
+   b. float
+   c. complex 
+   b. long (2.x - deprecated - 29374209310240812372590345903820340834L)
+
+2. Strings
+3. Boolean
+
+www.python.org
+
+special variables will be pre and post fixed with double underscore
+
+__name__	= double underscore name
+		= dunder name
+
+
+in python every thing is an object
+
+a = 10
+
+101 = 2 ** 2 + 0 + 2 ** 0
+    =   4 + 0 + 1
+    = 5
+
+
+
+
+
+
+
+
+
+
+
+
