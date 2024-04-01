@@ -1,0 +1,126 @@
+Sets 
+----
+1. its an unordered collection
+2. elements in a set is unique
+3. it is mutable
+4. it cannot be subscripted
+
+
+a. Lists
+b. tuples
+c. set
+d. dictionary
+
+
+Dictionary
+-------------
+associative array
+
+
+List 
+----
+index =   0    1    2    3    4 
+l     = ['a', 'b', 'c', 'd', 'e']
+
+associative array = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+0, 1, 2, 3, 4   = keys
+
+a, b, c, d, e  = values
+
+capitals = {'kar': 'blr', 'TN': 'che', 'Ker': 'Tvn', 'AP' : 'Amr', 'Tel': 'Hyd'}
+
+
+1. Keys in a dictionary is userdefined and unique
+2. dictionaries are unordered collections
+3. dictionaries are mutable
+4. dictionaries are enclosed { }
+
+functions to manipulate a dictionary
+------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+keys, values, fromkeys, setdefault, pop, popitem, items, update, get  - clear, copy,
+
+
+---------------------------------------------------------------------------
+
+Practical Session:
+-----------------
+
+Write a program which demonstrate comparison statements (> <) and Boolean
+operations coverage during 'if' conditional statements
+
+
+a = 10
+b = 20
+
+if (a > b):
+	print(f"a is the greatest :{a}")
+elif (a < b):
+	print(f"b is the greatest :{b}")
+
+
+FUNCTIONS
+---------
+def - defnition
+
+def fun(arg1, arg2, agr3.....):
+     body of the function
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+Assigment
+---------
+
+"""
+123.123.123.123 - - [26/Apr/2000:00:23:48 -0400] "GET /pics/mypics.gif
+HTTP/1.0" 200 6248 "http://www.abcxyz.com/asctortf/" "Mozilla/4.05
+(Macintosh; I; PPC)"
+123.123.123.123 - - [26/Apr/2000:00:23:48 -0400] "GET /pics/mypics.gif
+HTTP/1.0" 200 6248 "http://www.abcxyz.com/asctortf/" "Mozilla/4.05
+(Macintosh; I; PPC)"
+123.123.123.123 - - [26/Apr/2000:00:23:48 -0400] "GET /pics/mypics.gif
+HTTP/1.0" 200 6248 "http://www.abcxyz.com/asctortf/" "Mozilla/4.05
+(Macintosh; I; PPC)"
+"""
+
+Produce below outputs
+
+Output-1: list of lists
+-----------------------
+[[ip, date, pics, url], [ip, date, pics, url], [ip, date, pics, url]]
+
+Ouput-2: list of tuples
+-----------------------
+[(ip, date, pics, url), (ip, date, pics, url), (ip, date, pics, url)]
+
+Output-3: dictionary
+--------------------
+{‘0’: (ip, date, pics, url), ‘1’: (ip, date, pics, url)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
