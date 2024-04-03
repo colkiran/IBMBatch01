@@ -1,0 +1,118 @@
+Returning values from a function
+--------------------------------
+How many values can a function return
+
+
+def fun()
+   return a, b, c, d
+
+
+res = fun()
+res will store it in the form of a tuple
+
+
+passing  arguments to the function
+----------------------------------
+
+doc string - strings that are not assinged to any variable
+
+" " and ' ' are used to store single line string
+
+"""  """ or '''    '''  can be used to store multiple lines
+                                 
+
+Scope of a variable
+-------------------
+1. Global 
+2. Local
+3. Non Local - enclosed
+4. Built-in
+
+Local - Lexical - within a block of code
+
+variable declared inside the function cannot be accessed outside the function
+
+Builtin Scope
+-------------
+Its a special scope which is created or loaded at script run or opens an interactive session
+
+This scope contains names such as Keywords, Functions, Exceptions and other attributes that are built into python
+
+Names in this scope are also available from everywhere in your code
+
+try:
+
+except:
+
+
+OOP's
+-----
+why should I implement OOPS in my project
+
+
+1. encapsulation - we bind all the modules into one project 
+2. polymorphism  - 
+3. Inheritance   -
+4. abstraction   - 
+
+
+Old rules - checking - access card
+
+New Rules - Cameras AI - Uniform along with access card
+
+ATM - 
+
+Polymorphism - gold card(1 lakhs), platinum card(2.5 lakhs), shopping card (40k per day)
+
+Inheritance - SBI 10k +, 4 digit code to the mobile and use it withdraw the amount
+
+abstraction - Hardware and Software in it
+
+Encapsulation - Hardware + Software - ATM
+
+
+__init__ = double underscore init
+	 = dunder init
+
+
+class attribute or class variable
+---------------------------------
+class attribute are accessed with class name 
+
+they are declared inside a class and outside the methods
+
+they are static and its values are common accross objects
+
+
+Methods
+-------
+1. instance method - accessed with the object of a class
+2. class method - accessed with the class name
+3. static method - accessed directly without class name or object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

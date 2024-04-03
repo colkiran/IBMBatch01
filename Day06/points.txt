@@ -1,0 +1,81 @@
+class method
+-------------
+
+class Player:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        print("Player Ctor......")
+
+    def get_details(self):
+        print(f"Name is {self.name}\nAge is {self.age}")
+
+    @classmethod
+    def CreatePlayer(cls, name, dob):
+	
+
+
+ply1 = Player("Micheal", 38)
+
+ply2 = Player.CreatePlayer("Ruben", "15/10/1985")
+
+
+  from datetime import datetime, date
+        start_date = datetime.strptime(dob,"%d-%m-%y")
+        today = date.today()
+        end_date = datetime.strptime(today, "%y-%m-%d")
+
+        print(start_date, end_date)
+
+        print("Factory")
+        print(dob)
+
+
+class Player1:
+
+    
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    def get_details(self):
+        print(f"name is {self.name}, age is {self.age}")
+
+    @staticmethod
+    def static_method_1( ):
+        print("static method")
+        
+
+Player1.static_method_1( )
+
+
+
+Operator Overloading
+--------------------
+__add__ 
+__sub__ 
+
+slang - magic methods
+
+
+------------------------------------
+
+we have to overload 
+
+  1. equal to (== mandatory)
+  2. greater than (>)
+
+use a decorator @total_ordering for the class 
+
+
+
+
+
+
+
+
+
+
+
+
