@@ -1,0 +1,79 @@
+Abstract Class
+-------------
+
+MRO
+----
+MRO - Method Resolution Order
+
+
+File Handling
+-------------
+1. Text Files - ascii - no drivers necessary
+
+5 paragraphs - each paragraph is a line.(return key)
+
+3 modes of opening the file
+
+read	r	- only read the contents of the file
+
+write	w	- file already exists then delete the contents of the file and then write the contents newly into the file, if the file is not existing then create a new file and write into the file
+
+append	a	- file aleady exists then add the new contents to the file without disturbing the old contents, if the file is not existing then create a new file and write into the file.
+
+Open a file randomly and read the contents of it
+
+Move the filehandle from one location to another by using
+
+FL.seek(offset, whence)
+
+offset = filehandle position
+
+whence  - 0 - BOF
+	  1 - CP
+	  2 - EOF
+
+
+FL.seek(10, 0)
+FL.seek(50, 0)
+FL.seek(25, 1)  - cp
+FL.seek(-40, 1)
+FL.seek(100,2)
+
+['empid', 'empname', 'age', 'dept', 'salary']
+['501', 'Jack', '28', 'HR', '65000']
+['235', 'Jill', '34', 'FIN', '35000']
+['150', 'John', '26', 'AC', '25000']
+['325', 'Jai', '21', 'DEV', '55000']
+['450', 'Guru', '38', 'DEV', '85000']
+['182', 'Sita', '32', 'PRC', '75000']
+['297', 'Gita', '36', 'SUP', '60000']
+
+pip install prettytable
+2. CSV files
+3. Json files
+4. Database
+
+
+driver to connect to a database = pymysql
+
+
+
+Regular Expressions
+-------------------
+
+
+
+
+Assignment
+----------
+use EMP.csv file and fetch the following using python datastructures?
+
+1. count of males and females
+2. unique list of designations
+3. unique list of departments
+4. sum of all salaries
+
+
+
+
+
