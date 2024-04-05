@@ -1,0 +1,5 @@
+insert into player values ('PL001', 'Mike Tyson', 'Boxing', '85 knock outs')
+insert into player values ('PL008', 'Sachin Tendulkar', 'cricket','100 centuries')
+insert into player values ('PL003', 'Lionel Messi', 'football', '7  ballandors')
+insert into player values ('PL021', 'Roger Feddrer', 'tennis', '30 Grandslams')
+insert into player values ('PL025', 'PV Sindhu', 'badmiton', 'Olympic Bronx')

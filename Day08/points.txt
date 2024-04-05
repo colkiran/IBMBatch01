@@ -1,0 +1,97 @@
+1. Create a Database
+2. Create a Table
+3. Insert Records
+4. Read the data 
+5. Update query
+6. Delete query
+
+Packages and Modules
+--------------------
+
+package - directory or folder
+
+packages are used to store libraries(modules)
+
+Modules are same as libraries
+-----------------------------
+all python files and modules will have the same extension .py
+
+any python file can be treated as a module
+
+
+import module
+-------------
+1. location where modules or libraries can be stored
+
+2. adding a .pth file in python native path
+
+3. module extensions will change from .py to .pyc (compiled copy of the file) file and gets stored in a folder __pycache__
+
+4. when we import a module from the second time onwards - python will start comparing the date and time of creation or modification of .py and.pyc file.
+Python expects the .pyc file to have the latest date and time
+
+
+import mymodule
+from mymodule import a class
+from mymoduel import a function
+import mypackage.mymodule as m
+from mypackage import mymodule
+
+from mypackage import *
+ 
+packages - classes
+------------------
+
+class  - create an object of a class then we call the constructor
+
+package - first the __init__.py file will get executed
+
+
+Regular Expressions
+--------------------
+pattern - to match a particular requirement
+
+?
+*
+
+dir *.txt  - * will represent the file name - 1 to any number of characters
+
+dir ?a*.txt - will match all files with second character as a
+
+
+Oracle Server - restarting due to file insertion - size too large - username -- 23/10/2023 - 10:15 PM
+
+PERL - Regex
+
+Basic Regular Expressions
+-------------------------
+
+.	- 	single character and can represent anything
+
+^	- 	Begning of the string
+$	- 	End of the string
+
+*	-	zero or more occurances
+?	-	zero or one occurance
++	-	oner or more occurances
+{n}	-	exactly n times
+{n,}	-	min n times and max infinite times
+{n, m}  -	min n times and max m times
+( )	- 	grouping
+[ ]	-	character class
+|	- 	Alternation
+\	-	escape (supress the regular expression character)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
