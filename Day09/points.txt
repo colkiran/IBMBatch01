@@ -1,0 +1,80 @@
+Exception Handling
+------------------
+1. code that is error pron - for example DB connection,  accessing a file that is present in a remote machine or taking user input
+
+2. code does not stop due to error
+
+Python Virtual Machines
+-----------------------
+Create a VM
+-----------
+python -m venv VMNAME
+
+Activate VM
+------------
+VMNAME\Scripts\activate
+
+Deactivate VM
+-------------
+deactivate
+
+Delete VM
+---------
+exit from the VM
+
+rm -rf VMNAME
+
+
+FLASK
+-----
+its a framework used to WEB applications
+
+REST API 
+--------
+
+
+cummunication between two pages
+--------------------------------
+Web services -> XML data
+
+Light weight web applications
+
+Java script frameworks
+
+Angular 
+React
+
+RESTful Services
+
+REST = Represetational State Transfer
+JSON = Java Script Object Notation
+
+RESTful Service - data is transfered in Json format
+
+Json format is very similar to Dictionary
+
+GET
+
+POST
+
+PUT	
+
+PATCH
+
+DELETE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
