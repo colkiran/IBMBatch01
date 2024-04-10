@@ -1,0 +1,42 @@
+GET 	-	to get data from the server
+
+
+PUT	-	to make large modification or add the data in the 		server 
+
+PATCH	-	to make smaller modifications
+		
+
+POST	-	to add a new record
+
+
+DELETE	-	to delete an existing record
+
+
+
+Decorator
+---------
+
+def login(usr, pwd):
+   login with the credentials
+
+   def function(accno, amt)
+
+	update the amt with accno
+
+
+   usr logoff
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
