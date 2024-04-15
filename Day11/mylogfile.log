@@ -1,0 +1,10 @@
+2024-04-15 10:52:19,238 : DEBUG : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:19,238 : INFO : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:19,238 : WARNING : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:19,238 : ERROR : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:19,238 : CRITICAL : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:41,220 : DEBUG : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:41,221 : INFO : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:41,221 : WARNING : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:41,221 : ERROR : root : the difference of 10 and 20 is :-10
+2024-04-15 10:52:41,221 : CRITICAL : root : the difference of 10 and 20 is :-10

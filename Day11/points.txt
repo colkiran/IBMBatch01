@@ -1,0 +1,108 @@
+REST API
+--------
+a. get
+b. put
+c. Patch
+d. Post
+e. delete
+
+Multi Threading
+---------------
+
+Code what we write gets executed synchonously (sequentially - line by line) 
+
+def fun():
+   pass  -> 10 secs to execute
+
+
+fun()	-> 10 secs
+fun()   -> 10 secs
+
+
+Threads
+-------
+GIL - does not support threads in python
+
+so solve this issue we have a special module called multithreading
+
+
+Logging Module
+---------------
+Different levels of log messages that can be written
+
+Level 		Level Number
+-----		------------
+Critical		50
+
+Error			40
+
+Warning			30
+
+INFO			20
+
+DEBUG			10
+
+NOSET			0
+
+Python and TK - TKinter
+-----------------------
+
+TK is built using TCL
+
+TK bocomes the GUI for technologies like C, C++, PERL, RUBY, Python
+
+
+
+Numpy
+-----
+numerical Python
+
+found by travis Oliphant - 2005
+
+number data 	-> convert these collection of numbers into numpy object -> we can implement numpy library based functions to manipulate it
+
+numpy arrays are stored at one continous place in memory unlike lists, hence its faster compared to lists
+
+This behaviour is called locality of reference
+col no.	     0 1 2 3
+
+0th row   -  1 2 3 4   
+1st row	  -  5 6 7 8
+
+
+Pandas
+------
+
+MC Kiney - 2008
+
+huge data of 25 cols and 50000 rows
+
+take this data and convert it into pandas object - Dataframe
+
+invalid row and cols are removed from this dataframe (nullvalues, invalid data)
+
+we will filter the data 
+
+then we summarise the data and then send it to analytics team
+
+they will pick this summarised information and plot graphs
+
+
+if we have a single row then we call it as series
+
+
+
+Seaborn
+Scikit
+
+
+
+
+
+
+
+
+
+
+
+
